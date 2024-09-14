@@ -35,7 +35,7 @@
                 </tr>
                 <?php foreach ($listaProduto as $produto) : ?>
                     <tr>
-                        <td><?php echo ($produto['nome']); ?></td>
+                        <td><?php echo ($produto['nome']); ?>></td>
                         <td><?php echo ($produto['descricao']); ?></td>
                         <td><?php echo ($produto['preco']); ?></td>
                         <td><?php echo ($produto['qtdEstoque']); ?></td>

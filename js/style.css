@@ -1,0 +1,54 @@
+/* style.css */
+
+/* Estilo para o corpo da página para centralizar o conteúdo */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #4587bc; /* Cor de fundo suave para contraste */
+}
+h1 {
+  font-size: 36px;
+  color: #fff;
+}
+
+/* Estilo para a caixa com inputs */
+.field {
+  background-color: #fff; /* Cor de fundo branca para contraste */
+  border: 1px solid #ccc; /* Borda leve para definir a caixa */
+  border-radius: 10px; /* Bordas arredondadas */
+  padding: 20px; /* Espaçamento interno */
+  width: 300px; /* Largura da caixa */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave para destaque */
+  display: flex;
+  flex-direction: column; /* Alinha os itens na vertical */
+  gap: 10px; /* Espaçamento entre os inputs */
+}
+
+/* Estilo para os inputs */
+.field input {
+  width: 100%; /* Faz com que os inputs ocupem toda a largura da caixa */
+  padding: 10px; /* Espaçamento interno dos inputs */
+  border: 3px solid #ccc; /* Borda leve para os inputs */
+  border-radius: 4px; /* Bordas arredondadas para os inputs */
+  box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+/* Estilo para o botão */
+.field button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #000000; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+}
+
+.field button:hover {
+  background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}
